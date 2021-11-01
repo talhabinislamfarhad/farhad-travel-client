@@ -65,10 +65,7 @@ const ManageAllOrders = () => {
                                                 <p>{services?.confirm?.day}{" "} Days / Night</p>
                                             </div>
                                             <div className="col-md-6">
-                                                <p>${services?.confirm?.price}{" "} / Per Person</p>
-                                            </div>
-                                            <div className="col-md-6">
-                                                <p>Person :{""}{services?.confirm?.person}</p>
+                                                <p>${services?.confirm?.price}{" "} / {services?.confirm?.person} Person</p>
                                             </div>
                                         </div>
                                     </div>
