@@ -1,0 +1,19 @@
+.login .row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap:2rem;
+}
+
+.login .icon{
+    text-align: center;
+}
+
+.login .icon p{
+    padding-top: 10px;
+    font-size: large;
+}
+
+.login .row .btn{
+    padding:1rem 4rem;
+}

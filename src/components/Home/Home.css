@@ -1,0 +1,169 @@
+.home{
+    padding-top: 3rem;
+    height: 550px;
+}
+
+.home .content{
+    flex:1 1 45rem;
+    padding-top: 14%;
+}
+
+.home .content h3{
+    font-size: 4.5rem;
+    font-weight: 700;
+    color:var(--black);
+    line-height: 1.8;
+    color: #061A3A;
+}
+
+.home .content p{
+    font-size: 1.7rem;
+    color:var(--black);
+    line-height: 1.8;
+    padding: 1rem 0;
+    color: #061a3ada;
+}
+
+.btn{
+    display: inline-block;
+    margin-top: 1rem;
+    padding: .5rem;
+    padding-left: 1rem;
+    border: 1px solid #061A3A;
+    border-radius: .5rem;
+    box-shadow: var(--box-shadow);
+    color:var(--green);
+    cursor: pointer;
+    font-size: 1.7rem;
+    background: #fff;
+  }
+  
+  .btn span{
+    padding:.7rem 1rem;
+    border-radius: .5rem;
+    background: var(--green);
+    color:#fff;
+    margin-left: .5rem;
+  }
+  
+  .btn:hover{
+    background: var(--green);
+    color:#fff;
+  }
+  
+  .btn:hover span{
+    color: var(--green);
+    background:#fff;
+    margin-left: 1rem;
+  }
+
+.icons-container{
+    display: grid;
+    gap:2rem;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.icons-container .icons{
+    border:var(--border);
+    box-shadow: var(--box-shadow);
+    border-radius: .5rem;
+    text-align: center;
+    padding: 1rem;
+}
+
+.icons-container .icons img{
+    font-size: 4.5rem;
+    color:var(--green);
+    padding-bottom: .7rem;
+    height: 60%;
+    width: 100%;
+}
+
+.icons-container .icons h3{
+    font-size: 3rem;
+    color:var(--black);
+    padding: .5rem 0;
+    text-shadow: var(--text-shadow);
+}
+
+.icons-container .icons p{
+    font-size: 1.7rem;
+    color:var(--light-color);
+}
+
+/* details */
+.details .row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap:2rem;
+}
+
+.details .row .image{
+    flex:1 1 45rem;
+}
+
+.details .row .image img{
+    width: 100%;
+}
+
+.details .row .content{
+    flex:1 1 45rem;
+}
+
+.details .row .content h3{
+    color: var(--black);
+    text-shadow: var(--text-shadow);
+    font-size: 4rem;
+    line-height: 1.8;
+}
+
+.details .row .content p{
+    color: var(--light-color);
+    padding:1rem 0;
+    font-size: 1.5rem;
+    line-height: 1.8;
+}
+
+/* Booking */
+.booking-container{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap:2rem;
+}
+.booking-container h2{
+    font-size: 4.5rem;
+    font-weight: 700;
+    color:var(--black);
+    line-height: 1.8;
+    color: #061A3A;
+}
+.booking-container p{
+    font-size: 1.7rem;
+    color:var(--black);
+    line-height: 1.8;
+    padding: 1rem 0;
+    color: #061a3ada;
+}
+.booking-container input{
+    font-size: 16px;
+    height: 50px;
+    border-radius: 0.5rem;
+}
+.booking-container select{
+    font-size: 16px;
+    height: 50px;
+    border-radius: 0.5rem;
+}
+
+@media only screen and (max-width: 600px) {
+    .home{
+        height: 540px;
+    }
+    .home .content{
+        padding-top: 0;
+    }
+  }

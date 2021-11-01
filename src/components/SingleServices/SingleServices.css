@@ -1,0 +1,39 @@
+/* Service */
+.service .row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap:2rem;
+    justify-content: center;
+}
+
+.service .row .image{
+    flex:1 1 45rem;
+}
+
+.service .row .image img{
+    width: 100%;
+}
+
+.service .row .content{
+    flex:1 1 45rem;
+    text-align:center;
+}
+
+.service .row .content h3{
+    color: var(--black);
+    text-shadow: var(--text-shadow);
+    font-size: 4rem;
+    line-height: 1.8;
+}
+
+.service .row .content p{
+    color: var(--light-color);
+    padding:1rem 0;
+    font-size: 1.5rem;
+    line-height: 1.8;
+}
+
+.service .btn{
+    text-align: center;
+}

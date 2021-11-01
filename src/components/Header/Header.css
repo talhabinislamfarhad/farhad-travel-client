@@ -1,0 +1,25 @@
+.navbar-nav{
+    line-height: 4;
+    text-transform: uppercase;
+}
+.navbar-light .navbar-nav .nav-link.active {
+    color: #061A3A;
+}
+.logo-text{
+    padding-left: 60px;
+}
+.nav-link h1{
+   color: #061A3A;
+}
+.menu-font-size{
+    font-size: 17px;
+}
+
+@media only screen and (max-width: 600px) {
+    .navbar-nav{
+        line-height: normal;
+    }
+    .logo-text{
+        padding-left: 0;
+    }
+  }
