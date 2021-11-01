@@ -20,8 +20,7 @@ const Contact = () => {
                 <div className="row justify-content-center mt-5">
                     <div className="col-md-8">
                         <form onSubmit={handleContact}>
-                            <h3>Get In Touch!</h3>
-                            <p>Travel by water often provided more comfort and speed than land-travel, at least until the advent of a network of railways in the 19th century.</p>
+                            <h3>Get In Touch With Us!</h3>
                             <input type="text" placeholder="your name" className="box" />
                             <input type="email" placeholder="your email" className="box" required />
                             <textarea type="textarea" placeholder="your message" className="box" required></textarea>

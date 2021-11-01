@@ -24,9 +24,8 @@ const About = () => {
                     </div>
 
                     <div className="content">
-                        <h3>BEST TRAVEL AGENCY COMPANY SINCE 2021.</h3>
-                        <p>Travel by water often provided more comfort and speed than land-travel, at least until the advent of a network of railways in the 19th century. Travel for the purpose of tourism is reported to have started around this time when people began to travel for fun as travel was no longer a hard and challenging task..</p>
-                        <p>This was capitalized on by people like Thomas Cook selling tourism packages where trains and hotels were booked together.</p>
+                        <h3> WORLD BEST TRAVEL AGENCY SINCE 1999.</h3>
+                        <p>Travelers welcome to my site. You’ve just stumbled across the best place on the internet to find information on travel-related websites and resources. Although the concept is pretty self-explanatory, I thought I would offer a little introduction page to let you know precisely what it is you will be looking at. The platform is a review and ranking area for traveler resources.</p>
                         <Link className="btn" to="/services">Our Packages {ChevronRight}</Link>
                     </div>
 

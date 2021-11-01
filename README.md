@@ -4,7 +4,7 @@
 
 * Farhad Travel is an organization with Book flights, hotels, trains & rental cars anywhere in the world in just seconds. Get real-time flight updates, travel info, exclusive deals, and 30% more Trip Coins only on the app!
 
-* Live Website Link: [https://square-hospital.web.app]( https://square-hospital.web.app)
+* Live Website Link: [https://farhad-travel.web.app]( https://farhad-travel.web.app)
 
 ## Described the project below with some bullet points
 * The website made by React, firebase, react-router, etc.

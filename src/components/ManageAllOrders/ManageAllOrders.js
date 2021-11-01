@@ -5,14 +5,14 @@ import { Button } from 'react-bootstrap'
 const ManageAllOrders = () => {
     const [manageOrder, setManageOrder] = useState([]);
     useEffect(() => {
-        fetch('http://localhost:5000/manageorders')
+        fetch('https://afternoon-retreat-33013.herokuapp.com/manageorders')
             .then((res) => res.json())
             .then((data) => setManageOrder(data));
     });
     const handleDelete = (id) => {
         const proced = window.confirm('Are you Sure, Delete Your Data?');
         if (proced) {
-            const url = `http://localhost:5000/allorderdelete/${id}`;
+            const url = `https://afternoon-retreat-33013.herokuapp.com/allorderdelete/${id}`;
 
             fetch(url, {
                 method: 'DELETE'
@@ -27,7 +27,7 @@ const ManageAllOrders = () => {
     }
 
     const handleUpdate = (id) => {
-        const url = `http://localhost:5000/placeorders/${id}`;
+        const url = `https://afternoon-retreat-33013.herokuapp.com/placeorders/${id}`;
         fetch(url, {
             method: 'PUT',
             headers: {

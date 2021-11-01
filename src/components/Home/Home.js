@@ -18,11 +18,13 @@ const Home = () => {
         <div>
             {/* home section starts */}
             <section className="home" id="home" style={{
-                background: `url(${Banner})`
+                background: `url(${Banner})`,
+                backgroundRepeat: 'no-repeat',
+                backgroundSize: 'cover'
             }}>
                 <div className="content">
-                    <h3>Let's Start Your Journey Safe</h3>
-                    <h3> & Secure with us!</h3>
+                    <h3>Book flights, hotels, trains </h3>
+                    <h3>anywhere in the world!</h3>
                     <Link className="btn" to="/about">About Us {ChevronRight}</Link>
                 </div>
             </section>
@@ -31,8 +33,7 @@ const Home = () => {
             <section className="booking-container mb-5" data-aos="fade-up">
                 <div className="text-center container">
                     <div className="sec-title text-center">
-                        <h2 className="text-uppercase abril-font mb-5">Check Availability.</h2>
-                        <p className="text-uppercase abril-font">TRAVEL SPECIALS</p>
+                        <h2 className="text-uppercase abril-font mb-5">Check For Availability.</h2>
                     </div>
                     <form className="shadow-lg p-5 rounded-3">
                         <div className="g-0 g-3 row">
@@ -72,12 +73,12 @@ const Home = () => {
                                             <p>CITY</p>
                                         </div>
                                         <select className="shadow-none form-control form-select">
-                                            <option value="new york">New York, America</option>
-                                            <option value="Chicago, America">Chicago, America</option>
-                                            <option value="Barcelona, Spain">Barcelona, Spain</option>
-                                            <option value="Moscow, Russia">Moscow, Russia</option>
-                                            <option value="Los Angels, America">Los Angels,America</option>
-                                            <option value="Sorrent, Germany">Sorrent, Germany</option>
+                                            <option value="Los Angeles">Los Angeles, California</option>
+                                            <option value="Melbourne, Australia">Melbourne, Australia</option>
+                                            <option value="Teton, Spain">Teton, Spain</option>
+                                            <option value="Intia, Russia">Intia, Russia</option>
+                                            <option value="Hallowed ,America">Hallowed ,America</option>
+                                            <option value="Hinoa, Germany">Hinoa, Germany</option>
                                         </select>
                                     </div>
                                 </div>
@@ -95,26 +96,26 @@ const Home = () => {
             <section className="icons-container">
 
                 <div className="icons">
-                    <img src="https://i.ibb.co/dtpwfY3/feature-1.jpg" alt="" />
-                    <h3>2000+ </h3>
+                    <img src="https://image.freepik.com/free-photo/travel-concept-with-worldwide-landmarks_23-2149153263.jpg" alt="" />
+                    <h3>20000+ </h3>
                     <p>Our Worldwide Guide</p>
                 </div>
 
                 <div className="icons">
-                    <img src="https://i.ibb.co/xgV0c3d/feature-2.jpg" alt="" />
+                    <img src="https://image.freepik.com/free-vector/flat-travel-background_23-2148043314.jpg" alt="" />
                     <h3>100% </h3>
                     <p>Trusted Tour Agency</p>
                 </div>
 
                 <div className="icons">
-                    <img src="https://i.ibb.co/zrnhP9P/feature-3.jpg" alt="" />
-                    <h3>12+ Years of </h3>
+                    <img src="https://img.freepik.com/free-vector/flat-travel-background_23-2148050086.jpg?size=338&ext=jpg" alt="" />
+                    <h3>18+ Years of </h3>
                     <p>Travel Experience</p>
                 </div>
 
                 <div className="icons">
-                    <img src="https://i.ibb.co/7YnzQVq/feature-4.jpg" alt="" />
-                    <h3>100% of </h3>
+                    <img src="https://img.freepik.com/free-photo/flat-lay-yellow-luggage-with-copy-space_23-2148786124.jpg?size=338&ext=jpg" alt="" />
+                    <h3>99% of </h3>
                     <p>Our Travelers are Happy</p>
                 </div>
 
@@ -134,8 +135,7 @@ const Home = () => {
 
                     <div className="content">
                         <h3>FARHAD TRAVELS</h3>
-                        <p>Travel by water often provided more comfort and speed than land-travel, at least until the advent of a network of railways in the 19th century. Travel for the purpose of tourism is reported to have started around this time when people began to travel for fun as travel was no longer a hard and challenging task..</p>
-                        <p>This was capitalized on by people like Thomas Cook selling tourism packages where trains and hotels were booked together.</p>
+                        <p>Travelers welcome to my site. You’ve just stumbled across the best place on the internet to find information on travel-related websites and resources. Although the concept is pretty self-explanatory, I thought I would offer a little introduction page to let you know precisely what it is you will be looking at. The platform is a review and ranking area for traveler resources.</p>
                         <Link className="btn" to="/services">Our Packages {ChevronRight}</Link>
                     </div>
 

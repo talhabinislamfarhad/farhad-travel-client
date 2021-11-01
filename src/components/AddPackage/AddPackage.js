@@ -6,7 +6,7 @@ import { useForm } from 'react-hook-form';
 const AddPackage = () => {
     const { register, handleSubmit, reset } = useForm();
     const onSubmit = data => {
-        fetch('http://localhost:5000/packages', {
+        fetch('https://afternoon-retreat-33013.herokuapp.com/packages', {
             method: 'POST',
             headers: {
                 'content-type': 'application/json'

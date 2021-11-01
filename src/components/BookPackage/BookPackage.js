@@ -10,7 +10,7 @@ const BookPackage = () => {
     const { id } = useParams();
     const [confirm, setConfirm] = useState([]);
     useEffect(() => {
-        fetch(`http://localhost:5000/allconfirmorder/${id}`)
+        fetch(`https://afternoon-retreat-33013.herokuapp.com/allconfirmorder/${id}`)
             .then(res => res.json())
             .then(data => {
                 setConfirm(data)
@@ -21,7 +21,7 @@ const BookPackage = () => {
         data.status = 'pending';
         data.email = user?.email;
         data.confirm = confirm;
-        fetch('http://localhost:5000/placeorder', {
+        fetch('https://afternoon-retreat-33013.herokuapp.com/placeorder', {
             method: 'POST',
             headers: {
                 'content-type': 'application/json'
