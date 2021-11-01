@@ -57,7 +57,7 @@ const ManageAllOrders = () => {
                                 <div className="box">
                                     <img src={services?.confirm?.img} alt="" />
                                     <h3>{services?.confirm?.title}</h3>
-                                    <p>{services?.confirm?.des}</p>
+                                    <p>{services?.confirm?.des.slice(0, 100)}</p>
                                     <h3>(In {services?.confirm?.country})</h3>
                                     <div className="container">
                                         <div className="row">
